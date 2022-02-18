@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App'
+import Counter from './UseState/Counter'
+import Input from './UseState/Input'
+import Reducer from './UseReducer/Reducer'
+import Effect from './UseEffect/Effect'
+import Ref from './UseRef/Ref'
 
-ReactDOM.render(<App />,document.getElementById('root'));
+ReactDOM.render(<Ref />,document.getElementById('root'));
 
 

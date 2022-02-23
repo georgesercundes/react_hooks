@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Counter from './UseState/Counter'
 import Input from './UseState/Input'
-import Reducer from './UseReducer/Reducer'
-import Effect from './UseEffect/Effect'
-import Ref from './UseRef/Ref'
-import Memo from './UseMemo/Memo'
-import Callback from './UseCallback/Callback'
+import Reducer from './UseReducer/UseReducer'
+import Effect from './UseEffect/UseEffect'
+import Ref from './UseRef/UseRef'
+import Memo from './UseMemo/UseMemo'
+import Callback from './UseCallback/UseCallback'
+import Context from './UseContext/UseContext'
 
-ReactDOM.render(<Callback />,document.getElementById('root'));
+ReactDOM.render(<Context />,document.getElementById('root'));
 
 
